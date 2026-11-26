@@ -1,0 +1,21 @@
+# data are distributed through Zenodo (see data/README.md)
+data/*
+!data/README.md
+
+# run outputs
+outputs/
+outputs_dlfold/
+outputs_25_26/
+logs/
+*.pt
+*.pth
+slurm-*.out
+
+# Python / OS
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+.DS_Store
+Thumbs.db
+~$*

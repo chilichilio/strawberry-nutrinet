@@ -1,0 +1,16 @@
+# Python 3.10 or newer
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+scikit-learn>=1.3
+openpyxl>=3.1
+matplotlib>=3.7
+
+# M5, M7 and the sequence encoder of M6. Install the torch / torchvision build
+# that matches your CUDA version (https://pytorch.org).
+torch>=2.1
+torchvision>=0.16
+rasterio>=1.3
+
+# explanations (M6 TreeSHAP, M7 static-branch SHAP)
+shap>=0.44
